@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-body{
+    height: calc(100vh - 70px);
+    display: flex;
+    overflow: hidden;
+}
+
+.side-bar{
+    height: 100%;
+    background-color: white;
+    width: 230px;
+    overflow: scroll;
+}
+
+.catagories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.catagory{
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+
+}
+
+.catagory span{
+    margin-left: 15px;
+}
+
+.catagory:hover{
+    background: #e5e5e5;
+    cursor: pointer;
+}
+
+.side-bar::-webkit-scrollbar{
+    display: none;
+}
+
+hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+.videos{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    border-top: 1px solid white;
+    overflow-y: scroll;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video{
+    width: 310px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.video-thumbnail{
+    width: 100%;
+    height: 170px;
+}
+.video-thumbnail img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+.autors img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.video-details{
+    display: flex;
+    margin-top: 10px;
+}
+
+.titles{
+    display: flex;
+    flex-direction: column;
+}
+.titles h3{
+    line-height: 18px;
+    font-size: 14px;
+  
+    margin-bottom: 6px;
+}
+
+.titles a,
+span{
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+   margin-left: 26px;
+}
+
+.material-symbols-outlined{
+    color: rgb(96, 96, 96);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left img{
+    width: 100px;
+    margin-left: 15px;
+}
+
+.header i{
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.search-box form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.search-box input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.search-box button{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+
